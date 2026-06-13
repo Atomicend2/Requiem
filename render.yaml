@@ -5,8 +5,7 @@ services:
     region: oregon
     plan: free
     buildCommand: >-
-      npm install -g pnpm &&
-      pnpm install --frozen-lockfile=false &&
+      pnpm install &&
       pnpm --filter @workspace/shadow-garden run build &&
       node artifacts/api-server/build.mjs
     startCommand: node --enable-source-maps artifacts/api-server/dist/index.mjs
