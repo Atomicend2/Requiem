@@ -24,7 +24,7 @@ export async function handleMenu(ctx: CommandContext): Promise<void> {
 ┌──────────────
 │ 👋 Hey       : ${senderTag}
 │ 🌌 Bot       : Requiem Order
-│ 👑 Creator   : Natsuki
+│ 👑 Creator   : Eᴍᴘᴇʀᴏʀ Lᴇʟᴏᴜᴄʜ
 │ 🔹 Prefix    : [ . ]
 └──────────────
 
@@ -82,7 +82,7 @@ export async function handleMenu(ctx: CommandContext): Promise<void> {
 ➺ .stats / .cds
 
 ❀━━━━━━━━━━━━━━❀
-          🎴 𝗖𝗔𝗥𝗗𝗦
+           🎴 𝗖𝗔𝗥𝗗𝗦
 ❀━━━━━━━━━━━━━━❀
 ➺ .collection / .coll
 ➺ .deck / .sdi
@@ -104,7 +104,7 @@ export async function handleMenu(ctx: CommandContext): Promise<void> {
 ➺ .accept / .decline
 
 ❀━━━━━━━━━━━━━━❀
-          🎮 𝗚𝗔𝗠𝗘𝗦
+           🎮 𝗚𝗔𝗠𝗘𝗦
 ❀━━━━━━━━━━━━━━❀
 ➺ .tictactoe / .ttt
 ➺ .connectfour / .c4
@@ -114,14 +114,14 @@ export async function handleMenu(ctx: CommandContext): Promise<void> {
 ➺ .stopgame
 
 ❀━━━━━━━━━━━━━━❀
-             🃏 𝗨𝗡𝗢
+              🃏 𝗨𝗡𝗢
 ❀━━━━━━━━━━━━━━❀
 ➺ .uno / .startuno
 ➺ .unoplay / .unodraw
 ➺ .unohand
 
 ❀━━━━━━━━━━━━━━❀
-           🎲 𝗚𝗔𝗠𝗕𝗟𝗘
+            🎲 𝗚𝗔𝗠𝗕𝗟𝗘
 ❀━━━━━━━━━━━━━━❀
 ➺ .slots / .dice / .casino
 ➺ .coinflip / .cf
@@ -129,7 +129,7 @@ export async function handleMenu(ctx: CommandContext): Promise<void> {
 ➺ .roulette / .horse / .spin
 
 ❀━━━━━━━━━━━━━━❀
-           🎭 𝗙𝗨𝗡
+            🎭 𝗙𝗨𝗡
 ❀━━━━━━━━━━━━━━❀
 ➺ .fancy <1-35> <text>
 ➺ .gay / .lesbian / .simp
@@ -141,7 +141,7 @@ export async function handleMenu(ctx: CommandContext): Promise<void> {
 ➺ .joke
 
 ❀━━━━━━━━━━━━━━❀
-     👤 𝗜𝗡𝗧𝗘𝗥𝗔𝗖𝗧𝗜𝗢𝗡
+      👤 𝗜𝗡𝗧𝗘𝗥𝗔𝗖𝗧𝗜𝗢𝗡
 ❀━━━━━━━━━━━━━━❀
 ➺ .hug / .kiss / .slap
 ➺ .wave / .pat / .dance
@@ -241,7 +241,7 @@ export async function handleInfo(ctx: CommandContext): Promise<void> {
 
   const info = `🌌 *Requiem Order Bot — 反逆*\n\n` +
     `🌌 Bot: ${ctx.sock.user?.name || "Requiem Order"}\n` +
-    `👑 Creator: Natsuki\n` +
+    `👑 Creator: Eᴍᴘᴇʀᴏʀ Lᴇʟᴏᴜᴄʜ\n` +
     `🔹 Prefix: [ . ]\n` +
     `📡 Status: Online ✅\n` +
     `⏱️ Uptime: ${uptimeStr}\n` +
